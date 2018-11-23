@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -34,13 +34,12 @@ a:hover {
   color: #f05f40;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arimo, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+h3 {
+  color: #181920;
+  line-height: 1.5;
 }
 
 .bg-primary {
@@ -103,6 +102,10 @@ img::-moz-selection {
   text-transform: uppercase;
   color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNav .navbar-brand img {
+  height: 50px;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -194,6 +197,7 @@ header.masthead h1 {
 
 header.masthead p {
   font-weight: 300;
+  direction: rtl;
 }
 
 @media (min-width: 768px) {
@@ -212,20 +216,26 @@ header.masthead p {
   header.masthead h1 {
     font-size: 3rem;
   }
+  header.masthead p {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
   }
-}
-
-.service-box {
-  max-width: 400px;
+  header.masthead p {
+    font-size: 2rem;
+  }
 }
 
 .process {
   max-width: 400px;
+}
+
+.process h1 {
+  font-size: 72px;
 }
 
 .process h3 {
@@ -239,6 +249,20 @@ header.masthead p {
   direction: rtl;
 }
 
+.about {
+  direction: rtl;
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
 .text-primary {
   color: #F05F40 !important;
 }
@@ -247,7 +271,7 @@ header.masthead p {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 300px;
+  border-radius: 10px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -268,4 +292,90 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.service-box {
+  max-width: 400px;
+}
+
+.service-box p {
+  direction: rtl;
+}
+
+
+.service {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.service .icon {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.service .icon i {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.2);
+  color: #FF5200;
+}
+
+.service h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.service p {
+  font-size: 15px;
+}
+
+.service.left-icon {
+  padding: 0px;
+  border: none;
+  margin-bottom: 20px !important;
+}
+
+.service.left-icon .icon, .service.left-icon .text {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.service.left-icon .icon {
+  width: 70px;
+  position: relative;
+  top: 20px;
+}
+
+.service.left-icon .icon i {
+  font-size: 40px;
+}
+
+.service.left-icon .text {
+  display: table-cell;
+}
+
+.service.left-icon h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.service.left-icon p {
+  font-size: 14px;
+}
+
+.service.left-icon p:last-child {
+  margin-bottom: 0;
+}
+
+.service.hover_service {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.service.hover_service:hover, .service.hover_service:focus {
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
 }
