@@ -329,6 +329,7 @@ header.masthead p {
 
 .service p {
   font-size: 15px;
+  direction: rtl;
 }
 
 .service.left-icon {

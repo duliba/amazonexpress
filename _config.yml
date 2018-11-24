@@ -1,1 +1,9 @@
 name: My Jekyll Website
+title: Amazon Express
+author: Amazon Express
+description: שירות ייעוץ, הקמה, וניהול חנויות אמזון למוצרים של עסקים וחברות ישראליות
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge

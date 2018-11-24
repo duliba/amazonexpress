@@ -1,0 +1,11 @@
+navbar:
+  - name: צור קשר
+    link: "#contact"
+  - name: השירותים שלנו
+    link: "#services"
+  - name: מי אנחנו
+    link: "#about"
+  - name: התהליך
+    link: "#process"
+
+logo_src: "img/logo/logo_transparent_small.png"
