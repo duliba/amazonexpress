@@ -8,4 +8,5 @@ navbar:
   - name: התהליך
     link: "#process"
 
-logo_src: "img/logo/logo_transparent_small.png"
+logo_src: "img/logo/logo_transparent_white.png"
+logo_src_shrink: "img/logo/logo_transparent_small.png"

@@ -19,5 +19,24 @@
         </h3>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 text-center">
+        <ul id="hexGrid">
+          {% for hex in site.data.about.gallery %}
+          <li class="hex">
+            <div class="hexIn">
+              <img src="{{ hex }}" alt="" />
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-lg-6 col-md-12 text-center align-self-center">
+        <h3 class="mb-3">
+          בכל השווקים של
+        </h3>
+        <img src="img/amazon_logo/plain.svg" class="img-fluid" width="180">
+      </div>
+    </div>
   </div>
 </section>
