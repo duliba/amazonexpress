@@ -12,7 +12,7 @@
         <!-- Phone + email icon columns -->
         {% for item in site.data.contact.contact_items %}
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <div class="contact-icon text-center rtl">
+          <div class="contact-icon text-center">
             <div class="single-icon">
               <i class="mb-3 fa-2x {{ item.icon }}"></i>
               <p>
@@ -27,7 +27,7 @@
           <div class="contact-icon text-center">
             <div class="single-icon">
               <i class="mb-3 fa-2x fa fa-map-marker-alt sr-contact-3"></i>
-              <p class="address-icon rtl">
+              <p class="rtl">
                 {{ site.data.contact.address_line1 }}
                 <br>
                 <span>{{ site.data.contact.address_line2 }}</span>
