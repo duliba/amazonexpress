@@ -11,10 +11,10 @@
     <div class="row d-flex flex-row-reverse">
       {% for step in site.data.process %}
       <div class="col-lg-4 col-md-6 text-center">
-        <div class="process left-icon mt-5 mx-auto">
+        <div class="process rtl left-icon mt-5 mx-auto">
           <div class="icon"><h1 class="text-primary mb-3 sr-icon-1">{{ step.title }}</h1></div>
           <div class="text">
-            <p class="text-muted mb-0">{{ step.description }}</p>
+            {% include process/{{ step.description }} %}
           </div>
         </div>
       </div>

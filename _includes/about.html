@@ -9,16 +9,11 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="about col-lg-12 mx-auto text-right">
+      <div class="about col-lg-12 mx-auto text-right rtl">
         <h3 class="mb-3">
           {{ site.data.about.header_top }}
         </h3>
-        <p class="text-faded mb-4">
-          {{ site.data.about.text_p1 }}
-        </p>
-        <p class="text-faded mb-4">
-          {{ site.data.about.text_p2 }}
-        </p>
+        {% include about_text.html %}
         <h3 class="mb-3">
           {{ site.data.about.header_bottom }}
         </h3>

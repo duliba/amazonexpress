@@ -55,7 +55,7 @@ h3 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 .section-heading {
@@ -87,6 +87,14 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+}
+
+span.highlight {
+background-image: linear-gradient(-60deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
+}
+
+.rtl {
+  direction: rtl;
 }
 
 #mainNav {
@@ -197,7 +205,6 @@ header.masthead h1 {
 
 header.masthead p {
   font-weight: 300;
-  direction: rtl;
 }
 
 @media (min-width: 768px) {
@@ -246,11 +253,6 @@ header.masthead p {
 .process p {
   font-size: 18px;
   margin-bottom: 20px;
-  direction: rtl;
-}
-
-.about {
-  direction: rtl;
 }
 
 .about h3 {
@@ -294,20 +296,11 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
-.service-box {
-  max-width: 400px;
-}
-
-.service-box p {
-  direction: rtl;
-}
-
-
 .service {
   margin-bottom: 30px;
   float: left;
   width: 100%;
-  padding: 40px;
+  padding: 40px 40px 0px 40px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -323,13 +316,18 @@ header.masthead p {
 }
 
 .service h3 {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
 .service p {
-  font-size: 15px;
-  direction: rtl;
+  font-size: 18px;
+}
+
+.service ul {
+  padding-inline-start: 0px;
+  font-size: 18px;
 }
 
 .service.left-icon {
@@ -349,9 +347,9 @@ header.masthead p {
   top: 20px;
 }
 
-.service.left-icon .icon i {
-  font-size: 40px;
-}
+/*.service.left-icon .icon i {*/
+  /*font-size: 46px;*/
+/*}*/
 
 .service.left-icon .text {
   display: table-cell;
@@ -384,7 +382,6 @@ header.masthead p {
 /*--------------------------------*/
 /* Contact Area
 /*--------------------------------*/
-
 .contact-area {
   height: auto;
   width: 100%;
@@ -468,10 +465,6 @@ header.masthead p {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
-}
-
-.form-group {
-  direction: rtl;
 }
 
 /*--------------------------------*/
