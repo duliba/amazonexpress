@@ -2,10 +2,10 @@ contact_items:
   - data: 054-209-6368
     icon: fas fa-mobile-alt sr-contact-1
 
-  - data: eballas14@gmail.com
+  - data: amazonexpressbiz@gmail.com
     icon: far fa-envelope sr-contact-2
 
 address_line1: דרך השלום 29,
 address_line2: גבעתיים
 google_maps_location_src: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.9764857907394!2d34.800312215505414!3d32.06988472700919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4ba41b108fef%3A0x5bff4395ee6a47c2!2sDerech+HaShalom+29%2C+Giv&#39;atayim!5e0!3m2!1sfr!2sil!4v1543019388679
-form_action: https://formspree.io/eballas14@gmail.com
+form_action: https://formspree.io/amazonexpressbiz@gmail.com
